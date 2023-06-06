@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./res/favicon.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="./style.css">
+    <title>The SuperHero WebApp</title>
+</head>
+<body>
+    <div class="f">
+        <h1 id="idd"></h1>
+    </div>
+    <div class="main">
+        <div class="heading">
+            <h1 class="main-heading"><em>The SuperHero App</em></h1>
+        </div>
+        <div class="option">
+            <div class="text">
+                <h2 class="h2_hmm">Enter an ID:</h2>
+                <input type="text" name="text_id" placeholder="0" onkeyup="display_text()" value="0" id="text_id">
+            </div>
+            <div class="random">
+                <button id="random_btn" class="random_btn">Click Here</button>
+            </div>
+        </div>
+        <div class="info">
+            <div class="image" id="image">
+            </div>
+            <div class="info1">
+                <h2>Name -> <span id="name"></span></h2>
+                <h2>Gender -> <span id="gender"></span></h2>
+                <h2>Height -> <span id="height"></span></h2>
+                <h2>Weight -> <span id="weight"></span></h2>
+                <h2>Eye-Color -> <span id="eye_color"></span></h2>
+                <h2>Occupation -> <span id="occupation"></span></h2>
+                <h2>First-Appearence -> <span id="appearence"></span></h2>
+                <h2>Publisher -> <span id="publisher"></span></h2>
+                <h2>Connections -> <span id="connections"></span></h2>
+            </div>
+        </div>
+        <!-- <div class="info2">
+            <h2>Occupation: <span id="occupation"></span></h2>
+            <h2>First-Appearence: <span id="appearence"></span></h2>
+            <h2>Publisher: <span id="publisher"></span></h2>
+            <h2>Connections: <span id="connections"></span></h2>
+        </div> -->
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400&display=swap');
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    max-width: 1440px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #060047;
+}
+
+/* Main Div */
+.main
+{
+    background-color: #B3005E;
+    color: floralwhite;
+    margin: auto;
+    width: 1200px;
+    border: 8px solid black;
+}
+
+/* Main Heading */
+.heading
+{
+    padding: 5px;
+    text-align: center;
+}
+.main-heading
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 110px;
+    font-weight: 600;
+}
+.heading::selection
+{
+    background: none;
+    color: yellow;
+}
+
+/* The Options Part */
+.option
+{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+}
+.h2_hmm
+{
+    margin-bottom: 0px;
+    color: white;
+}
+.text
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-right: 20px;
+    border-right: 8px solid black;
+    align-items: center;
+    width: 50%;
+}
+#text_id
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    outline: none;
+    width: 200px;
+}
+.random
+{
+    margin: auto;
+}
+.random_btn
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 20px;
+    width: 300px;
+    margin: 10px 0px;
+}
+
+/* Next Phase */
+.info
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+h2
+{
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 1000;
+    color: black;
+}
+#image
+{
+    display: inline;
+    margin: 10px;
+}
+/* .info2
+{
+    padding: 10px;
+    border-top: 8px solid black;
+} */
+span
+{
+    color: white;
+}
+
+/* Floating Dot */
+.f
+{
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+
+    position: relative;
+    top: 350px;
+    left: 50px;
+}
